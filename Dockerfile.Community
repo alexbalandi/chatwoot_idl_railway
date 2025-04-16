@@ -1,5 +1,5 @@
 # https://hub.docker.com/r/chatwoot/chatwoot/tags
-FROM chatwoot/chatwoot:latest-ce
+FROM iditelesom/chatwoot:update_4.0.4_dev
 
 RUN apk add --no-cache multirun postgresql-client
 

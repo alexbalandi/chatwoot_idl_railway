@@ -33,4 +33,5 @@ jobs:
           file: Dockerfile.Community
           platforms: linux/amd64
           push: true
-          tags: latest
+          tags: "${{ secrets.DOCKER_USERNAME }}/chatwoot:idl_latest"
+          context: .
